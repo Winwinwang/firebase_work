@@ -1,0 +1,100 @@
+body{
+  background-image:url(../img/bg.png);
+}
+.mdl-grid{
+  padding-top: 50px;
+}
+.mdl-card {
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+   border-radius: 15px;
+}
+.mdl-card__title{
+background-color: #FF5964;
+}
+#sign-info {
+  color: #E84855;
+  font-size: 120%;
+}
+
+#user-info {
+  padding: 0px;
+  width: 250px;
+  box-sizing: border-box;
+}
+.example-chat-messages{
+  height: 350px;
+  padding-bottom: -100px;
+}
+#user-pic {
+  padding:10px;
+  width: 72px;
+  box-sizing: border-box;
+}
+
+input(type="password") {
+  font:large;
+  font-size:150%;
+}
+
+.demo-avatar {
+    width: 60px;
+    height: 60px;
+    padding: 0px;
+}
+
+ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+ul li {
+    font-family: Roboto;
+    /*font-size: 120%;*/
+    /*font-weight: 300;*/
+    /*margin-bottom: 10px;*/
+    line-height: 24px;
+}
+.mdl-card {
+  margin-top: 30px;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.message-pic{
+
+  width:30px;
+  height:30px;
+  padding: 0px;
+  margin:0px 10px 0px 0px;
+}
+
+.mine{
+  text-align: right;
+}
+.mdl-layout__content{
+  background-color:#FFC1C1;
+}
+
+ul {
+  list-style: none;
+  margin: 0px;
+  padding: 20px;
+  height: 200px;
+  overflow: auto;
+}
+ul li {
+    font-family: Roboto;
+    font-size: 120%;
+    font-weight: 300;
+    margin-bottom: 10px;
+    line-height: 24px;
+}
+ul li:last-child {
+    margin: 0px;
+}
+ul .example-chat-username {
+    margin-right: 10px;
+}
